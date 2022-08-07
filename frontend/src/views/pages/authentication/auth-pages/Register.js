@@ -142,7 +142,7 @@ export default function Register({ ...others }) {
                 {smUp && (
                     <Typography variant="body2" sx={{ mt: { md: -2 } }}>
                         Already have an account? {''}
-                        <Link variant="subtitle2" component={RouterLink} to="/pages/login/login3">
+                        <Link variant="subtitle2" component={RouterLink} to="/login">
                             Login
                         </Link>
                     </Typography>
@@ -391,7 +391,7 @@ export default function Register({ ...others }) {
                     {!smUp && (
                         <Typography variant="body2" sx={{ mt: 3, textAlign: 'center' }}>
                             Already have an account?{' '}
-                            <Link variant="body2" to="/pages/login/login3" component={RouterLink}>
+                            <Link variant="body2" to="/login" component={RouterLink}>
                                 Login
                             </Link>
                         </Typography>
